@@ -1,6 +1,12 @@
 ﻿Checks: >
-    -*,
-    readability-identifier-naming
+  -*,
+  readability-identifier-naming,
+  cppcoreguidelines-pro-type-member-init,
+  clang-analyzer-core.*,
+  clang-analyzer-cplusplus.*
+
+WarningsAsErrors: >
+  cppcoreguidelines-pro-type-member-init
 
 CheckOptions:
   # =====[ MacroDefinition ]=====
