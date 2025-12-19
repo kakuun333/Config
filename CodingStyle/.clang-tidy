@@ -45,6 +45,10 @@ CheckOptions:
   - key: readability-identifier-naming.ConstexprVariableCase
     value: UPPER_CASE
 
-  # =====[ GlobalPointer ]=====
+  - key: readability-identifier-naming.LocalVariableCase
+    value: CamelCase
+    
+
+  # =====[ Pointer ]=====
   - key: readability-identifier-naming.GlobalPointerPrefix
     value: p
