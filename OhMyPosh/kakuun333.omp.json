@@ -53,7 +53,7 @@
           "type": "session"
         },
         {
-          "background": "p:blush",
+          "background": "#ac6202",
           "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "options": {
