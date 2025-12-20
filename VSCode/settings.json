@@ -22,6 +22,9 @@
             "class": {
                 "foreground": "#4ec9b0"
             },
+            "struct": {
+                "foreground": "#4ec9b0"
+            },
             "namespace": {
                 "foreground": "#d5d5d5",
                 "fontStyle": ""
