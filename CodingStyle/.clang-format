@@ -1,17 +1,40 @@
-﻿---
+﻿# clang-format ver. 21.1.8
+---
 Language: Cpp
 BasedOnStyle: LLVM
-AccessModifierOffset: -4
-AlignConsecutiveAssignments: false
-AlignConsecutiveDeclarations: false
-AlignOperands: true
-AlignTrailingComments: true
-AllowShortBlocksOnASingleLine: false
+
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortCompoundRequirementOnASingleLine: true
+AllowShortEnumsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
 AllowShortFunctionsOnASingleLine: None
-AllowShortIfStatementsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortNamespacesOnASingleLine: false
+
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+AlignArrayOfStructures: Left
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+AlignEscapedNewlines: LeftWithLastLine
+AlignConsecutiveAssignments:
+  Enabled: false
+  AcrossEmptyLines: true
+  AcrossComments: false
+AlignConsecutiveDeclarations: false
+AlignOperands: Align
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 1
+
+AccessModifierOffset: -4
 AlwaysBreakAfterDefinitionReturnType: false
-AlwaysBreakTemplateDeclarations: Yes
-BraceWrapping: 
+BraceWrapping:
   AfterCaseLabel: true
   AfterClass: true
   AfterControlStatement: true
@@ -29,39 +52,49 @@ BraceWrapping:
   SplitEmptyFunction: true
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
+
+BreakTemplateDeclarations: Yes
 BreakBeforeBraces: Custom
-BreakBeforeTernaryOperators: false
+BreakBeforeTernaryOperators: true
 BreakConstructorInitializers: BeforeComma
-BreakConstructorInitializersBeforeComma: false
+BreakBinaryOperations: Never
+
 ColumnLimit: 0
-ConstructorInitializerAllOnOneLineOrOnePerLine: false
+PackConstructorInitializers: Never
 Cpp11BracedListStyle: false
-IncludeCategories: 
-  - Regex: '^<.*'
-    Priority: 1
-  - Regex: '^".*'
-    Priority: 2
-  - Regex: '.*'
-    Priority: 3
+
+IncludeCategories:
+- Regex: '.*'
+  Priority: 1
+  SortPriority: 0
+  CaseSensitive: true
+- Regex: '^".*'
+  Priority: 2
+- Regex: '^<.*'
+  Priority: 3
+IncludeBlocks: Regroup
 IncludeIsMainRegex: '([-_](test|unittest))?$'
+
 IndentCaseLabels: true
 IndentPPDirectives: BeforeHash
+
 IndentWidth: 4
-InsertNewlineAtEOF: true
-MacroBlockBegin: ''
-MacroBlockEnd: ''
-MaxEmptyLinesToKeep: 2
-PointerAlignment: Left
-SpaceInEmptyParentheses: false
-SpacesInAngles: false
-SpacesInConditionalStatement: false
-SpacesInCStyleCastParentheses: false
-SpacesInParentheses: false
 TabWidth: 4
 UseTab: Never
+
+InsertNewlineAtEOF: true
+MacroBlockBegin: ""
+MacroBlockEnd: ""
+MaxEmptyLinesToKeep: 2
+PointerAlignment: Left
+QualifierAlignment: Leave # DO NOT CHANGE
+SpaceInEmptyParentheses: false
+SpacesInAngles: Never
+SpacesInConditionalStatement: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpaceBeforeCpp11BracedList: true
 FixNamespaceComments: true
-IncludeBlocks: Regroup
-ReflowComments: Never
-AlignConsecutiveMacros: true
-AlignArrayOfStructures: Left
+WrapNamespaceBodyWithEmptyLines: Always
+LambdaBodyIndentation: Signature
 ...
