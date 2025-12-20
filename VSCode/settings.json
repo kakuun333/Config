@@ -74,4 +74,5 @@
     "[cpp]": {
         "editor.defaultFormatter": "xaver.clang-format"
     },
+    "better-yaml.lineWidth": 50,
 }
