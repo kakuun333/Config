@@ -1,0 +1,74 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Monokai",
+    "editor.mouseWheelZoom": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.fontFamily": "'Hack Nerd Font Mono', Hack, Consolas, 'Courier New', monospace",
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "function": {
+                "foreground": "#79d82b",
+            },
+            "variable": {
+                "foreground": "#92cceb"
+            },
+            "macro": {
+                "foreground": "#beb7ff"
+            },
+            "comment": {
+                "foreground": "#88846f"
+            },
+            "class": {
+                "foreground": "#4ec9b0"
+            },
+            "namespace": {
+                "foreground": "#d5d5d5",
+                "fontStyle": ""
+            },
+            "parameter": {
+                "foreground": "#ff8000",
+                "fontStyle": "italic underline"
+            },
+            "modifier": {
+                "foreground": "#d72672",
+            },
+            "keyword": {
+                "foreground": "#d72672",
+            },
+            "operator": {
+                "foreground": "#d72672",
+            },
+            "enumMember": {
+                "foreground": "#b8d7a3",
+            },
+            "property": {
+                "foreground": "#05e1e1"
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#88846f",
+        "types": "#4ec9b0",
+        "keywords": "#d72672",
+        "numbers": "#a281ff"
+    },
+    "workbench.colorCustomizations": {
+        "debugConsole.foreground": "#D4D4D4",
+        "debugConsole.infoForeground": "#4FC1FF",
+        "debugConsole.warningForeground": "#CCA700",
+        "debugConsole.errorForeground": "#F44747",
+    },
+    "editor.formatOnSave": true,
+    // Extensions
+    "liveServer.settings.donotShowInfoMsg": true,
+    "C_Cpp.enhancedColorization": "enabled",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "clang-format.executable": "clang-format",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+}
