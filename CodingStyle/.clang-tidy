@@ -76,7 +76,8 @@ Checks: >
   misc-confusable-identifiers,
   misc-const-correctness,
   -misc-use-anonymous-namespace,
-  llvm-namespace-comment,
+
+  llvm-namespace-comment, llvm-include-order,
 
 WarningsAsErrors: >
   cppcoreguidelines-pro-type-member-init
