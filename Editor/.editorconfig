@@ -3,7 +3,7 @@ root = true
 
 # 所有檔案預設的編碼
 [*.*]
-charset = utf-8-bom
+charset = utf-8
 
 # C++
 [*.{c++,cc,cpp,cppm,cxx,h,h++,hh,hpp,hxx,inl,ipp,ixx,tlh,tli}]
