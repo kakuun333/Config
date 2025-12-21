@@ -1,4 +1,4 @@
-﻿# clang-format ver. 21.1.8
+﻿# LLVM version 21.1.8
 ---
 Language: Cpp
 BasedOnStyle: LLVM
