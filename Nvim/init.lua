@@ -10,6 +10,8 @@ require("config.indent")
 -- 加載其他
 require("config.misc")
 
+-- require("custom.monokai.init").colorscheme()
+
 -- 加載語意顏色
 require("config.semantic_tokens")
 
@@ -20,4 +22,3 @@ require("config.autocmds")
 
 -- 加載 Keymaps
 require("config.keymaps")
-
